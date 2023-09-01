@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    text-tranfsform: uppercase;
+  color: white;
+  font-family: Party;
+    
+}
+body {
+    width: 100%;
+    background: white;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+#earnings, #moneys, #debts {
+   
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.top {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: lightskyblue;
+    font-weight: bold;
+    font-size: 100%;
+}
+.top div {
+    width: 33%;
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main h1 {
+    font-size: 120%;
+    text-align: center;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: lightblue;
+}
+.rule {
+    width: 90%;
+    margin: auto;
+    background-color: lightskyblue;
+    border-radius: 5px;
+    
+    font-weight: lightter;
+}
+h4 {
+    text-align: center;
+    
+}
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+}
+ button {
+    background-color: lightskyblue;
+    text-align: center;
+   margin: auto;
+   width: 150px;
+   height: 40px;
+   border: none;
+   box-shadow: 0 0 10px lightblue;
+   border-radius: 5px;
+  border: 2px solid lightsalmon;
+   font-weight: bold;
+}
+.rule p {
+    text-align: center;
+  
+}
+.rule {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+#properties {
+    background-color: lightskyblue;
+    width: 90%;
+    margin: auto;
+    hevight: 50vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#properties p {
+    color: white;
+}
+#home , #share, #homesell {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#loading {
+    margin: auto;
+    color: black;
+    animation-name: nmy;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes nmy {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+#loading p {
+    color: black;
+    margin: auto;
+    text-align: center;
+    margin-top: 55%;
+    font-size: 125%;
+    text-transform: uppercase;
+    color: lightskyblue;
+    font-weight: bolder;
+}
+#container {
+    display: none;
+}
